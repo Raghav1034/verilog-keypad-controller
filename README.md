@@ -48,5 +48,4 @@ The controller is built around a Finite State Machine (FSM) that operates on a c
     * Connect the `full` signals from your FIFOs to `position_fifo_full_i` and `keycode_fifo_full_i`.
 
 ## Synthesis
-
 The `ascii_lookup` function is implemented as a combinational case statement and will synthesize into a logic block (ROM), not a memory block.
