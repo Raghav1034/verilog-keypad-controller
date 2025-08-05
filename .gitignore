@@ -1,0 +1,34 @@
+# Simulation and synthesis tool files
+*.log
+*.vcd
+*.wlf
+*.fsdb
+*.jou
+*.rpt
+*.sdo
+*.svf
+
+# Project files
+*.pro
+*.prj
+*.xpr
+*.cache
+*.ip_user_files
+*.runs
+*.sim
+*.srcs
+
+# Output products
+*.o
+*.so
+*.bin
+*.elf
+*.hex
+*.out
+
+# Vivado specific
+.Xil
+vivado*.log
+vivado*.jou
+webtalk*.html
+webtalk*.xml
